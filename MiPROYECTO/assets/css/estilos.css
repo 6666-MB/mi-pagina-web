@@ -1,0 +1,78 @@
+/*degradado del fondo*/
+body {
+  background: linear-gradient(to bottom, #00008B, #87CEEB); /* Degradado de azul oscuro a celeste */
+}
+/* estilos.css productos */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.img_logo {
+    text-align: center;
+}
+
+.img_logo img {
+    width: 20%;
+    height: auto;
+}
+
+.contenedor_formulario {
+    text-align: left;
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor a tu preferencia */
+}
+
+/* estilos.css categorias */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.img_logo {
+    margin-bottom: 20px; /* Añadir margen inferior para separar la imagen del texto */
+}
+
+.img_logo img {
+    width: 20%;
+    height: auto;
+}
+
+.contenedor_formulario {
+    text-align: left;
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor según tus preferencias */
+}
+/*imagen home.html*/
+.img {
+    text-align: center;
+    max-width: 60%; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en el eje horizontal */
+}
+
+.img img {
+    max-width: 70%; /* Asegúrate de que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
+
+
+/* Estilo para el enlace "Home" */
+span.home {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+

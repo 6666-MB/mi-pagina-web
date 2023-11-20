@@ -1,0 +1,37 @@
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Computing Store Productos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/estilos.css">
+</head>
+<body>
+    <div class="img_logo">
+        <img src="../../assets/img/logo.jpg" alt="alt">
+    </div>
+    <div class="contenedor_formulario">
+        <form method="post" id="form_productos">
+            <label>Nombre del producto</label><br>
+            <input type="text" name="producto" class="input_text">
+            <br><br>
+            <label>Imagen</label><br>
+            <input type="file" name="imagen" class="input_text">
+            <br><br>
+            <label>Descripción</label><br>
+            <textarea name="descripcion" class="input_text"></textarea>
+            <br><br>
+            <label>Categoría</label><br>
+            <input type="number" name="categoria" class="input_text">
+            <br><br>
+            <button type="button" class="btn cancelar">CANCELAR</button>
+            <button type="submit" class="btn guardar">GUARDAR</button>
+            <h2 class="center">Marcelo Bogado</h2>
+        </form>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../../assets/js/validaciones.js" type="text/javascript"></script>
+    </div>
+</body>
+</html>
+ 
